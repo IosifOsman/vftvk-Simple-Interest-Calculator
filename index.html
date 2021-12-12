@@ -11,12 +11,14 @@
     <div class="maindiv">
         <h1>Simple Interest Calculator</h1>
 
+        <!-- Added table in order for the application to appear exactly as shown in instructions-->
         <table>
             <tr>
                 <td>
                     Amount
                 </td>
                 <td>
+                    <!-- The amount deposited to get interest-->
                     <input type="number" id="principal">
                 </td>
             </tr>
@@ -25,8 +27,11 @@
                     Rate
                 </td>
                 <td>
+                    <!-- interest rate on the deposited amount -->
                     <input type="range" id="rate" min="1" max="20" value="10.25" step="0.25"
-                        onchange="updateRate()""> <span id="rate_val">10.25%</span>
+                        onchange="updateRate()""> 
+                        <!-- since input type range does not display the selected value we add a span element to display it-->
+                    <span id="rate_val">10.25%</span>
                 </td>
             </tr>
             <tr>
@@ -34,6 +39,7 @@
                     No. of Years
                 </td>
                 <td>
+                    <!-- Number of years for the deposit-->
                     <select id="years">
                         <option value="1">1</option>
                         <option value="2">2</option>
