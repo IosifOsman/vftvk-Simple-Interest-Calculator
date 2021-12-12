@@ -9,7 +9,12 @@ h1{color:grey;font-family: Verdana;}
     border-radius: 25px;
     text-align: center
 }
-
+span {
+    background-color: white;
+}
+.numberhighlight {
+    background-color: yellow;
+}
 table,tr,td {
     text-align: left
 }

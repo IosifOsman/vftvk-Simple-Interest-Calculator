@@ -22,7 +22,7 @@ function compute()
     var year = new Date().getFullYear() + parseInt(years)
     
     //display the required text at the page by putting it in the appropriate span element
-    document.getElementById("result").innerHTML="If you deposit \<b\>"+principal+"\</b\>,\<br\>at an interest rate of \<b\>"+rate+"%\</b\>.\<br\>You will receive an amount of \<b\>"+interest+"\</b\>,\<br\>in the year \<b\>"+year+"\</b\>\<br\>"
+    document.getElementById("result").innerHTML="If you deposit \<span class='numberhighlight'\>"+principal+"\<\span\>,\<br\>at an interest rate of \<span class='numberhighlight'\>"+rate+"%\<\span\>.\<br\>You will receive an amount of \<span class='numberhighlight'\>"+interest+"\<\span\>,\<br\>in the year \<span class='numberhighlight'\>"+year+"\<\span\>\<br\>"
 }
 
 function updateRate() {
