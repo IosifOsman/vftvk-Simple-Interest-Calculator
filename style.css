@@ -7,5 +7,9 @@ h1{color:grey;font-family: Verdana;}
     width: 300px;
     padding: 20px;
     border-radius: 25px;
-    /*align: center*/
+    text-align: center
+}
+
+table,tr,td {
+    text-align: left
 }
